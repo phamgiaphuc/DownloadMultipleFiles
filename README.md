@@ -8,10 +8,9 @@
 
 ### Languages, tools and topics in this project:
 
-1. Java (Back-end).
-2. JavaFX and CSS (Front-end).
-3. Socket Programming and File Transfer Protocol.
-4. Maven.
+1. Java.
+2. Socket Programming and File Transfer Protocol.
+3. Maven.
 
 -----------------------------------
 <ins>
