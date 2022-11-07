@@ -96,7 +96,7 @@ public class ClientConfiguration {
         return client_configValues.length == 4;
     }
 
-    // Checking the ports if they are numbers.
+    // Checking  the ports if they are numbers.
     private static boolean checkPort() {
         try {
             Integer.parseInt(client_configValues[0]);
