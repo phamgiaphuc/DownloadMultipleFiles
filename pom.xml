@@ -18,6 +18,7 @@
     </properties>
 
     <dependencies>
+        <!-- lombok library: slf4j -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
