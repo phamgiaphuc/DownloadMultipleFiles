@@ -73,7 +73,7 @@ public class ClientConfiguration {
     }
 
     // Entering the user name
-    public static String enterClientName() {
+    private static String enterClientName() {
         System.out.print("Enter your name here to connect to the server: ");
         String name = sc.nextLine().trim();
         if (name.equals("")) {

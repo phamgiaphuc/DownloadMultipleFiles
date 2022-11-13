@@ -11,6 +11,7 @@
 1. Java.
 2. Socket Programming and File Transfer Protocol.
 3. Maven.
+4. Lombok library.
 
 -----------------------------------
 <ins>
@@ -64,6 +65,29 @@ Click the file path below:
 -----------------------------------
 <ins>
 
+### PROJECT ROOT
+
+</ins>
+
+```
+    java
+    |__ client  #client operation
+        |__ connection
+        |__ operation
+        |__ utilities
+    |__ server  #server operation
+        |__ connection
+        |__ operation
+        |__ file
+        |__ utilities
+    
+    resources
+    |__ configuration  #system and library configuration
+```
+
+-----------------------------------
+<ins>
+
 ### OPERATING ILLUSTRATION PICTURES
 
 </ins>
@@ -94,6 +118,8 @@ Click the file path below:
 
 </ins>
 
+> **Advice:** Please follow the steps below otherwise the program can not run.
+
 #### Step 1:
 
 - Go to 'Preferences' then go to 'Plugins' and type 'lombok' to search. It will look like this
@@ -103,11 +129,11 @@ Click the file path below:
 
 #### Step 2:
 
-- Enable Lombok then press Apply and OK
+- Enable Lombok then press Apply and OK.
 
 #### Step 3:
 
-- Go to the pom.xml file and add this code like in the picture
+- Go to the pom.xml file and add this code like in the picture.
 
 `code:`
 
@@ -134,9 +160,13 @@ Click the file path below:
 
 ![](src/main/resources/readme_photo/img_5.png)
 
+> **Notice:** Remember to **clean, compile and reload** the file again.
+
+![](src/main/resources/readme_photo/img_7.png)
+
 #### Step 4:
 
-- Everytime you want to use the third library, just enter "@Slf4j" on the head of the class like this
+- Everytime you want to use the third library, just enter "@Slf4j" on the head of the class like this.
 
 ![](src/main/resources/readme_photo/img_6.png)
 
@@ -152,4 +182,4 @@ Click the file path below:
 
 #### Step 5:
 
-- It's done. Check the configuration again and run the program
+- It's done. Check the configuration again and run the program.
